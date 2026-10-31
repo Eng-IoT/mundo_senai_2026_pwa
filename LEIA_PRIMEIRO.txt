@@ -1,0 +1,46 @@
+MUNDO SENAI 2026 GUIA DAS EQUIPES
+Versao 1 | Revisao do conteudo 01 de 31/10/2026
+
+1. ARQUIVO HTML AUTONOMO
+Mundo_SENAI_2026_Guia_Equipes.html inclui todo o conteudo, CSS, JavaScript,
+logo e fotografias WebP incorporadas. Pode ser aberto em um navegador sem
+instalar programas. Esse arquivo local nao registra service worker e nao
+e, sozinho, uma instalacao PWA.
+
+2. PWA INSTALAVEL
+Publique o CONTEUDO da pasta app em um servidor HTTPS, preservando a
+estrutura. A instalacao e o cache offline dependem de contexto seguro;
+localhost e aceito para desenvolvimento. HTTP por IP da rede local nao
+substitui HTTPS para service workers. Nao exige banco de dados ou Node.js
+em producao.
+
+3. NO CELULAR
+Android/Chrome: menu > Instalar aplicativo ou Adicionar a tela inicial.
+iOS/Safari: Compartilhar > Adicionar a Tela de Inicio.
+Primeiro acesse online e aguarde Disponivel para uso offline. Depois
+reabra o aplicativo sem conexao para conferir. Referencias externas
+dependem de internet. A opcao exata depende do navegador.
+
+4. ESTUDO E APRESENTACAO
+Cada equipe tem Estudar, Fala, Demonstracao e Perguntas. Modo de fala
+mostra os paragrafos em letra grande, com ajuste e cronometro opcional.
+Anotacoes e 18 pontos de revisao sao locais ao navegador. Exporte JSON
+para guardar uma copia ou transferir registros para outro aparelho.
+Importar substitui os registros locais somente apos confirmacao.
+
+5. ESCOPO
+O aplicativo e um guia de estudo. Nao conecta nem comanda CLP, inversor,
+bomba ou usina. A operacao da bancada exige procedimento e supervisao
+do instrutor. Exemplos de biomassa sao hipoteses didaticas, com PCI na
+condicao de recebimento, sem correcao adicional de umidade.
+
+6. IMAGENS
+Logo original SENAI Hub e fotografias do material fornecido, convertidas
+para WebP mantendo transparencia. Icones de instalacao em PNG para
+compatibilidade. As figuras ilustram unidades de referencia.
+
+7. HOSPEDAGEM E PRIVACIDADE
+O pacote pode ser hospedado na plataforma HTTPS de sua escolha. A
+publicacao de demonstracao criada nesta conversa comeca privada e nao
+concede automaticamente acesso aos alunos. Para acesso coletivo,
+configure a audiencia pretendida na hospedagem utilizada.
